@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 
 export default function Home() {
     return (
-        <main className="no-vertical-scroll bg-eco-gr">
+        <main className="no-vertical-scroll bg-hero-gradient text-white">
             <HeroSection />
             <AboutUs />
             <WhatWeDo />

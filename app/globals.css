@@ -55,3 +55,12 @@ body {
 .bg-eco-blue {
   background: #76b3db;
 }
+
+.bg-hero-gradient {
+  background: radial-gradient(
+    ellipse at bottom,
+    #0a2a36 0%,
+    #0c1e4a 60%,
+    #64b5f6 100%
+  );
+}

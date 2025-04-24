@@ -23,7 +23,7 @@ const HeroSection = () => {
 
             <div className="relative z-10 h-full w-full py-5 px-6 md:px-10 lg:px-16 flex flex-col justify-between">
                 {/* Header */}
-                <header className="flex justify-between items-center w-full px-4 md:px-8 py-5 text-black border-b">
+                <header className="flex justify-between items-center w-full px-4 md:px-8 py-5 border-b">
                     <div className="text-xl font-extrabold">ECOTONICS</div>
 
                     <nav className="hidden md:flex space-x-8 text-sm font-bold">
@@ -40,7 +40,7 @@ const HeroSection = () => {
 
                     <div className="hidden md:block">
                         <button 
-                            className="text-sm bg-black text-white font-bold px-6 py-2 rounded-2xl hover:bg-gray-800 transition duration-300"
+                            className="text-sm bg-white text-black font-bold px-6 py-2 rounded-2xl hover:bg-gray-800 transition duration-300"
                             aria-label="Contact us"
                         >
                             LET&apos;S TALK
@@ -67,13 +67,13 @@ const HeroSection = () => {
                     >
                         <button 
                             onClick={toggleMenu} 
-                            className="absolute top-6 right-6 text-black focus:outline-none transition-transform duration-300 hover:rotate-90" 
+                            className="absolute top-6 right-6 focus:outline-none transition-transform duration-300 hover:rotate-90" 
                             aria-label="Close menu"
                         >
                             <X size={32} />
                         </button>
                         
-                        <nav className="flex flex-col space-y-8 text-black text-xl font-bold text-center">
+                        <nav className="flex flex-col space-y-8 text-xl font-bold text-center">
                             {navLinks.map((link) => (
                                 <a 
                                     key={link.label}
@@ -95,9 +95,9 @@ const HeroSection = () => {
                 )}
 
                 {/* Hero Content */}
-                <div className="flex-1 flex items-center justify-center text-black text-center">
+                <div className="flex-1 flex items-center justify-center text-center">
                     <div className="w-full sm:w-4/5 md:w-3/4 lg:w-2/3 mx-auto px-4">
-                        <h1 className="text-5xl sm:text-6xl md:text-7xl font-extrabold mb-6 leading-tight text-gray-800">
+                        <h1 className="text-5xl sm:text-6xl md:text-7xl font-extrabold mb-6 leading-tight">
                             SMART SPACES <br /> TAILORED FOR YOU
                         </h1>
                     </div>
